@@ -1,0 +1,53 @@
+{
+    "cadastro_entregador": {
+        "nome": "Fabiano",
+        "cpf": "00000030007",
+        "email": "teste@teste.com",
+        "whatsapp": "11988888888",
+        "endereco": {
+            "cep": "06382090",
+            "rua": "Rua Yukio Wada",
+            "numero": "0005",
+            "complemento": "CASA 001",
+            "bairro": "Vila Silviânia",
+            "cidade_uf": "Carapicuíba/SP"
+        },
+        "metodo_entrega": "Van/Carro",
+        "cnh": "cypress/fixtures/images/cnh-digital.jpg"
+    },
+
+    "cpf_invalido": {
+        "nome": "Andrade",
+        "cpf": "00000000000",
+        "email": "qa@teste.com",
+        "whatsapp": "11988888888",
+        "endereco": {
+            "cep": "06382090",
+            "rua": "Rua Yukio Wada",
+            "numero": "100",
+            "complemento": "CASA 002",
+            "bairro": "Vila Silviânia",
+            "cidade_uf": "Carapicuíba/SP"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cypress/fixtures/images/cnh-digital.jpg"
+    },
+
+    "email_invalido": {
+        "nome": "Andrade",
+        "cpf": "00000014141",
+        "email": "qa.teste.com",
+        "whatsapp": "11988888888",
+        "endereco": {
+            "cep": "06382090",
+            "rua": "Rua Yukio Wada",
+            "numero": "1234",
+            "complemento": "CASA 002",
+            "bairro": "Vila Silviânia",
+            "cidade_uf": "Carapicuíba/SP"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cypress/fixtures/images/cnh-digital.jpg"
+    }
+
+}

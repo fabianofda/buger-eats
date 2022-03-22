@@ -1,0 +1,16 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de testes do site BugerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Fabiano Dias",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {}
+}
